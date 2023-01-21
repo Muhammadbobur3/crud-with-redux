@@ -22,7 +22,7 @@ export const Dashboard = () => {
   return (
     <>
       <h3>Dashboard page</h3>
-      {loading ? "Loading..." : <ul>{tasksData}</ul>}
+      <ul>{tasksData}</ul>
 
       <form onSubmit={onFormSubmit}>
         <input
